@@ -127,12 +127,9 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Congratulations Genius. Always remember to Npm I!
-        <br />
-        <span style={headingAccentStyles}>
-          — you just made a Gatsby site! 🎉🎉🎉
-        </span>
+        Hi I'm Craig, I'll teach you how to plan and use Gatsby!
       </h1>
+      <img src="../images/Craig.png" />
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
