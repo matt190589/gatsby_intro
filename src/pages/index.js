@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "../components/Image.js";
 
 const pageStyles = {
   color: "#232129",
@@ -127,13 +128,9 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Hi I'm Craig, I'll teach you how to plan and use Gatsby!
+        Hi I'm Crike, I'll teach you how to use Gatsby!
       </h1>
-      <img src="../images/Craig.png" />
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time. 😎
-      </p>
+      <Image src="Craig.png" alt="cartoon Craig" />
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
